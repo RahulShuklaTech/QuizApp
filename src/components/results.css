@@ -1,0 +1,78 @@
+#root{
+
+    width: 50vw;
+    height: 100vh;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    
+}
+
+
+.results {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px 10px;
+    position: relative;
+    flex-direction: column;
+  }
+  
+  .results::before {
+    content: "Results";
+    position: absolute;
+    top: 1%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 1.2rem;
+    overflow-y: hidden;
+    
+  }
+  
+  .result-question{
+    background-color: white;
+    padding: 10px 5px;
+    border: 1px solid gray;
+    flex-basis: 70%;
+  }
+
+  
+  
+.result-answer-right {
+  background-color: Green;
+  color: white;
+  
+  text-align: center;
+  flex-basis: 30%;
+  height: 100%;
+  margin: auto 0;
+  padding: 10px 5px;
+}
+
+.result-answer-wrong {
+  background-color: red;
+  color: white;
+  flex-basis: 30%;
+  text-align: center;
+ 
+  padding: 10px 5px;
+}
+
