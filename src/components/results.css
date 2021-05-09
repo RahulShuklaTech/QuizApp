@@ -28,12 +28,12 @@
   .results::before {
     content: "Results";
     position: absolute;
-    top: 1%;
+    top:-15%;
     background-color: black;
     color: white;
     padding-top: 10px;
     width: 80%;
-    height: 50px;
+    height: 40px;
     text-align: center;
   }
   

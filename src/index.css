@@ -57,3 +57,13 @@ button{
 .showConfetti{
   position: relative;
 }
+
+.progress-bar {
+  position: absolute;
+  left: 0;
+  top: 10px; 
+  height: 10px;
+  justify-self: flex-start;
+  background: rgb(66, 11, 138);
+  width: 90%;
+}
